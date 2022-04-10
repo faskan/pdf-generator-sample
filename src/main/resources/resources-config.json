@@ -1,0 +1,19 @@
+{
+  "resources": [
+    {
+      "pattern": ".*\\.html$"
+    },
+    {
+      "pattern": ".*\\.conf$"
+    },
+    {
+      "pattern": ".*\\.dtd$"
+    },
+    {
+      "pattern": ".*\\.css$"
+    },
+    {
+      "pattern": ".*\\.afm$"
+    }
+  ]
+}
