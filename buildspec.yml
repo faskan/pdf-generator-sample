@@ -4,4 +4,4 @@ phases:
     commands:
       - mvn package -Dnative -Dquarkus.native.container-build=true
       - sam build -t sam.native.yaml
-      - sam deploy --config-file samconfig-native.toml --no-confirm-changeset --no-fail-on-empty-changeset
+      - sam deploy --config-file samconfig.toml --no-confirm-changeset --no-fail-on-empty-changeset
